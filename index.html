@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>lab 6</title>
+    <style>
+        * {
+            font-size: medium;
+            font-weight: bolder;
+            font-family: calibri;
+            background-color: coral;
+            margin: 5px;
+        }
+    </style>
+    <script>
+		let method13 = (e) => alert(e.value);
+        let method14 = (e) => e.value += "!!!!!";
+	</script>
+</head>
+<body>
+    <input type = "button" value = "13.	Сделайте alert по нажатию на кнопку. Используя this." onclick="method13(this)">
+    <br>
+    <input type = "button" value = "14.	Сделайте изменение текста в input по нажатию кнопки. Используя this." onclick="method14(this)">
+    <br>
+    <script src="./lab6.js"></script>
+</body>
+</html>
